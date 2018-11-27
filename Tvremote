@@ -1,0 +1,57 @@
+// This is a class that provides minimum remote control to a Television Display with Cable
+//Complete the incomplete methods below -
+//Write a main class that will access all of the methods in TVremote class
+
+public class TVremote
+{
+private double channel;
+private String name;
+private int volume;
+Private int vol;
+private String brand;
+
+TVremote ( ) {
+brand = “SamSung”;
+channel = 2;
+name = null;
+volume = 5;
+vol;
+}
+
+// **write a second constructor method that will require another class to set name as a parameter.  //All other variables should remain the same as the default constructor
+
+public  String brandName( ) {
+return brand;
+}
+
+public void setName(String nm) {
+name = nm;
+}
+
+public String getName( ) {
+if (name == null) {
+return “no name entered”;
+else
+return name;
+}
+
+public  double getChannel ( ) {
+return channel;
+}
+
+public void setChannel (double c ) {
+channel = c;
+
+}
+  Public void int setvolume (){
+
+Volume += vol;
+
+ }
+public int getVolume ( ) {
+return volume;
+}
+
+// **Write the public method called setVolume that will allow the volume to be set with an input //from another class
+
+}
