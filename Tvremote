@@ -7,7 +7,6 @@ public class TVremote
 private double channel;
 private String name;
 private int volume;
-Private int vol;
 private String brand;
 
 TVremote ( ) {
@@ -15,7 +14,6 @@ brand = “SamSung”;
 channel = 2;
 name = null;
 volume = 5;
-vol;
 }
 
 // **write a second constructor method that will require another class to set name as a parameter.  //All other variables should remain the same as the default constructor
@@ -43,11 +41,7 @@ public void setChannel (double c ) {
 channel = c;
 
 }
-  Public void int setvolume (){
 
-Volume += vol;
-
- }
 public int getVolume ( ) {
 return volume;
 }
